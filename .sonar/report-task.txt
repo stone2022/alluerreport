@@ -1,0 +1,5 @@
+projectKey=alluerreport
+serverUrl=http://127.0.0.1:9000
+dashboardUrl=http://127.0.0.1:9000/dashboard/index/alluerreport
+ceTaskId=AVo2RMuChbljbecBmXce
+ceTaskUrl=http://127.0.0.1:9000/api/ce/task?id=AVo2RMuChbljbecBmXce

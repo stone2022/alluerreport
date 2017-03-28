@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="3">
+    <listeners>
+        <listener class-name="tools.TestngLister"/>
+        <listener class-name="web.ui.tools.common.util.testngretry"/>
+        <listener class-name="tools.Itooklisten" />
+    </listeners>
+
+    <test verbose="2" preserve-order="false" name="[创新事业部]:">
+        <parameter name="[餐厅ERP项目]:" value="[UI自动化]" />
+
+        <classes>
+            <class name="web.ui.tools.common.util.test" />
+        </classes>
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

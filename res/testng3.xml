@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="飞虎队" parallel="classes" thread-count="3">
+    <listeners>
+        <listener class-name="tools.TestngLister"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="false" name="单元测试">
+        <parameter name="飞虎队" value="单元自动化" />
+        <!--
+        <classes>
+            <class name="web.ui.tools.testsuites.Logintest" />
+        </classes>
+        -->
+
+        <packages>
+            <package name="web.ui.tools.testsuites" />
+
+        </packages>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
